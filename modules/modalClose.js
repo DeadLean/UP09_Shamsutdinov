@@ -1,5 +1,5 @@
 const modalClose = () => {
-    const modalCloseBtn = document.querySelector('.popup-close');
+    // const modalCloseBtn = document.querySelector('.popup-close');
     const modalArea = document.querySelector('.popup-call');
 
     modalArea.addEventListener('click', (e) => {

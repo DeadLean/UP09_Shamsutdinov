@@ -5,8 +5,6 @@ const formValidation = () => {
     // const phonePattern = /^((8|\+374|\+994|\+995|\+375|\+7|\+380|\+38|\+996|\+998|\+993)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$/;
     const namePattern = /^[а-яё -]+$/i;
 
-    console.log(nameInputs);
-
     phoneInputs.forEach((phoneInput) => {
         phoneInput.addEventListener('input', () => {
             if(!numbersPattern.test(phoneInput.value[phoneInput.value.length-1])){
